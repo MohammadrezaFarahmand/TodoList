@@ -20,19 +20,7 @@ const taskLabelSelect = document.getElementById(
 const taskStatusLabel = document.getElementById(
   "taskStatusLabel"
 ) as HTMLSelectElement
-const filterTitleInput = document.getElementById(
-  "filterTitle"
-) as HTMLInputElement
-const filterLabelSelect = document.getElementById(
-  "filterLabel"
-) as HTMLSelectElement
-const filterStatusSelect = document.getElementById(
-  "filterStatus"
-) as HTMLSelectElement
 const addTaskButton = document.getElementById("addTask") as HTMLButtonElement
-const filterButton = document.getElementById(
-  "filterButton"
-) as HTMLButtonElement
 const taskList = document.getElementById("taskList") as HTMLUListElement
 
 const tasks: ToDoList = []
